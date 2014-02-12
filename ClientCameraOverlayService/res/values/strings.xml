@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Client Camera Overlay Service</string>
+    <string name="message_notification">Press To Close Overlay</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+
+</resources>

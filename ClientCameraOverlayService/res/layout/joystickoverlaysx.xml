@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:background="@android:color/transparent" >
+
+       
+    <org.udoo.clientcameraoverlayservice.joystick.JoystickView
+        android:id="@+id/joystickViewsx"
+        android:layout_width="125dp"
+        android:layout_height="125dp"  />
+    
+    <TableLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+		        android:layout_below="@+id/joystickViewsx"
+		        android:layout_alignLeft="@+id/joystickViewsx">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                        <TextView android:text="@string/x" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"></TextView>
+                        <TextView android:text="" android:id="@+id/TextViewXsx"
+                                android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                        <TextView android:text="@string/y" android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"></TextView>
+                        <TextView android:text="" android:id="@+id/TextViewYsx"
+                                android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                </TableRow>
+     </TableLayout>      
+
+</RelativeLayout>
